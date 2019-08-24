@@ -12,4 +12,6 @@ I know what you're thinking... Why? Why would ANYONE make this?? WELL I'LL TELL 
 
 Now that has nothing to do with this at all, just added that in for dramatic effect. Truthfully, this came out of an absolutely ridicuous joke between some friends, and I had nothing better to do on a Friday night than make this a thing. So HERE YOU GO. 
 
+>for use, simply hit the "/getNanas/:ammountOfNanas" endpoint to recieve your banoonoos.
+
 I hope you enjoy it :) 
