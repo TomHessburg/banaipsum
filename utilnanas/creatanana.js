@@ -1,5 +1,20 @@
 const bananaLanguage = {
-  verb: ["plantaining", "banunning", "peeling"],
+  verb: [
+    "plantaining",
+    "banunning",
+    "peeling",
+    "banoonooing",
+    "banend",
+    "boughtnananed",
+    "cutnanad",
+    "dreamnannaing",
+    "plantainthaning",
+    "zerbnooonooed",
+    "painanad",
+    "wrotenanuhthed",
+    "chakitaing",
+    "chakooted"
+  ],
   noun: [
     "banana",
     "plantain",
@@ -10,17 +25,43 @@ const bananaLanguage = {
     "banasketball",
     "plantoon"
   ],
-  adjective: ["banangular", "plantainted"],
-  name: ["Plantainklin", "Banandrea", "Banaustin", "Peelthany", "Bananthony"],
-  conjunction: ["is", "the", "and", "for", "but", "or", "yet", "so"]
+  adjective: [
+    "banangular",
+    "plantainted",
+    "banoonethed",
+    "yellowified",
+    "banantiquainted",
+    "banabsolute",
+    "plantainnventurous",
+    "aggrananning",
+    "big-nannaed",
+    "blanand"
+  ],
+  name: [
+    "Yellowandrovski",
+    "Plantainklin",
+    "Banandrea",
+    "Banaustin",
+    "Peelthany",
+    "Bananthony",
+    "Chakita"
+  ],
+  conjunction: ["is", "the", "and", "for", "but", "or", "yet", "so", "through"]
 };
 
-const sentenceStructures = ["name conjunction verb conjunction noun"];
+const sentenceStructures = [
+  "name conjunction verb conjunction noun",
+  "noun adjective",
+  "conjunction name conjunction verb",
+  "conjunction name conjunction verb conjunction noun",
+  "noun conjunction verb conjunction conjunction adjective adjective",
+  "noun conjunction verb adjective conjunction conjunction noun"
+];
 const punctuationMarks = ["!", ".", "?"];
 const seperators = [",", ":", ";"];
 
 // is this way overly complicated?? YES
-// am I writing this at 12am? YES
+// am I writing this at 12am? YESd
 // do I care? NO
 // should you? I DONT KNOW
 // did i do this recursively for absolutely no reason? YES
@@ -34,15 +75,17 @@ const creatanana = (ammountOfNanas, curSentence = "") => {
   // yep. i did this recursively. WHAT CHA GUNU DO ABOUT IT!
 
   // end condition... lol
+  /// this... this is GOLD
   const curmountOfNanas = curSentence.split(" ").length - 1;
   if (curmountOfNanas == ammountOfNanas) {
-    return curSentence;
+    return curSentence.substr(1);
   } else if (curmountOfNanas > ammountOfNanas) {
     return (
       curSentence
         .split(" ")
         .slice(0, ++ammountOfNanas)
-        .join(" ") + "..."
+        .join(" ")
+        .substr(1) + "..."
     );
     // return curSentence;
   }
