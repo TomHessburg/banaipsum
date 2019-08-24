@@ -1,0 +1,21 @@
+{
+  "name": "banaipsum",
+  "version": "1.0.0",
+  "description": "A banana based lorem ipsum API",
+  "main": "index.js",
+  "repository": "https://github.com/TomHessburg/banaipsum.git",
+  "author": "Thomas Hessburg <44884308+TomHessburg@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
