@@ -1,5 +1,7 @@
 # banaipsum
 
+> https://banaipsum.herokuapp.com
+
 A banana base ipsum generator API.
 
 I know what you're thinking... Why? Why would ANYONE make this?? WELL I'LL TELL YOU WHY!!!! 
